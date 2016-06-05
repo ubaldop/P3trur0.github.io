@@ -33,18 +33,19 @@ layout: default
   {{ content }}
 </article>
 
-{% if site.author.about %}
+{% if post.author.about %}
 <aside class="author">
-  <h2 class="aside-title">About</h2>
+  <h2 class="aside-title">Author</h2>
 
-  {% if site.author.photo %}
-  <img class="me" src="{{ site.author.photo }}" alt="{{ site.author.name }}"/>
+  {% if post.author.photo %}
+  <img class="me" src="{{ post.author.photo }}" alt="{{ post.author.name }}"/>
   {% endif %}
 
-  {{ site.author.about | markdownify }}
+  {{ post.author.about | markdownify }}
 </aside>
 {% endif %}
 
+{% if post.related == true %}
 <aside class="related">
   <h2 class="aside-title">Related Posts</h2>
   <ul class="related-posts">
@@ -68,8 +69,9 @@ layout: default
     {% endfor %}
   </ul>
 </aside>
+{% endif %}
 
-{% if site.author.disqus %}
+{% if post.comments == true and site.author.disqus %}
 <aside class="comments">
   <h2 class="aside-title">Comments</h2>
 

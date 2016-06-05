@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing flatmap.it
+related: false
+comments: false
 ---
 
 <style>
@@ -15,5 +17,4 @@ title: Introducing flatmap.it
   }
 </style>
 
-Here I am, with my humble pleasant blog.
-
+Here I am, with my humble peasant blog.
