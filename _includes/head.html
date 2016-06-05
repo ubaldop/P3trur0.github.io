@@ -2,7 +2,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
+  <title>
+    {% if page.title == "Home" or page.title == ""%}
+      {{ site.title }}
+
+    {% else %}
+      {% if page.tag %}
+        {{ site.data.tags[page.tag].name }} &middot;
+      {% else %}
+        {{ page.title }} &middot;
+      {% endif %}
+      {{ site.title }}
+    {% endif %}
+  </title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|PT+Serif:400,400italic,700,700italic" type="text/css">
