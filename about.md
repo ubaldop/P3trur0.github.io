@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+image: /public/img/2.jpg
 ---
 
 {% comment %}
