@@ -2,7 +2,7 @@
 layout: post
 title: Introducing flatmap.it
 related: false
-comments: true
+comments: false
 ---
 
 <style>
