@@ -1,0 +1,26 @@
+# Add an entry, where the key represents a slug.
+# Provide at least a `name` value and optionally `image`, `color` and `description`.
+# Markdown is enabled for `description`, however don't use more than one paragraph (enforced by `>`)
+#
+# Example:
+#
+# ~~~
+# mytag:
+#   name: My Tag
+#   description: >
+#     *My Tag* is an example of how to define a custom tag.
+# ~~~
+
+software:
+  name: Software
+  image: /public/img/4.jpg
+  color: '#fff478'
+#  description: >
+#    Software posts are about my struggles to become a better developer.
+
+functional_programming:
+  name: Functional Programming
+  image: /public/img/0.jpg
+  color: '#fff478'
+#  description: >
+#    Flattening maps all way down!

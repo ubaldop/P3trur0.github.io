@@ -1,2 +1,46 @@
-baseurl: /
-exclude: ['README.md','LICENSE','CNAME']
+# Permalinks
+permalink:        pretty
+
+# Setup
+url:              http://flatmap.it
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          ''
+
+title:            flatmap.it
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  A peasant blog.
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     [software, functional_programming]
+
+# Fallback image and color if not overwritten for tag or post
+image:            /public/img/3.jpg
+color:            '#FFF478'
+
+author:
+  name:           'P3trur0 1rpin0'
+
+  # Setting social media usernames will add icons at the bottom of the sidebar
+  twitter:        maubalpes
+  github:         P3trur0
+  keybase:        P3trur0
+
+  # Setting a disqus username will enable the comment section
+  disqus:         maubalpes
+
+  # This photo will be used in the about section
+  photo:          /public/img/avatar.png
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    Hi, I am a small village in the southern part of Italy, where nothing special happens. Usually.
+    Now I am also a blog about software. Sometimes flattened.
+    Read my thoughts on [#software](http://flatmap.it/tag/software) and [#functional_programming](http://flatmap.it/tag/functional_programming) stuff.
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
