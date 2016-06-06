@@ -303,7 +303,7 @@ a:focus::before {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
-  background-color: #4F5064;
+  background-color: #082736;
 }
 
 @media (min-width: 48em) {
