@@ -7,7 +7,7 @@ title: ''
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul><hr/>{% endunless %}
-    <h2 id="y{{post.date | date: "%Y"}}" class="page-title">{{ currentdate }}</h2>
+    <h2 id="y{{post.date | date: "%Y"}}" class="page-title lighter-color">{{ currentdate }}</h2>
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}

@@ -18,7 +18,7 @@ sidebar_tags:     [software, functional_programming]
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/3.jpg
-color:            '#FFF478'
+color:            '#FC5A4A'
 
 author:
   name:           'P3trur0 1rpin0'

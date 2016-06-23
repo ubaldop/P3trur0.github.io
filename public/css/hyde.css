@@ -35,7 +35,7 @@
  */
 
 html {
-  font-family: "PT Serif", Georgia, serif;
+  font-family: "Josefin Sans", "PT Serif", Georgia, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -49,7 +49,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Serif", Georgia, serif;
+  font-family: "Josefin Sans", "PT Serif", Georgia, serif;
 }
 
 a {
@@ -60,7 +60,9 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  border-bottom: 0.1em solid;
+  border-bottom: 0.1em solid #ce4844;
+  color: #fff;
+
 }
 
 /* Styles for "Cesar" link hover effect. */
@@ -231,10 +233,11 @@ a:focus::before {
 
 /* About section */
 .sidebar-about > h1 {
-  font-family: "Roboto Slab", "PT Serif", Georgia, serif;
+  font-family: "Special Elite", Georgia, serif;
   color: #fff;
   margin-top: 0;
   font-size: 2rem;
+  text-shadow: 1px 1px #fc5a4a;
 }
 
 .sidebar-about code {
@@ -250,7 +253,7 @@ a:focus::before {
   padding-left: 0;
 }
 .sidebar-nav-item {
-  font-family: "Roboto Slab", "PT Serif", Georgia, serif;
+  font-family: "Josefin Sans", Georgia, serif;
   font-weight: bold;
   display: block;
   line-height: 1.75;
@@ -303,7 +306,7 @@ a:focus::before {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
-  background-color: #082736;
+  background-color: #302E44;
 }
 
 @media (min-width: 48em) {
@@ -386,6 +389,7 @@ a:focus::before {
 }
 
 .katex-display {
+  color: #fff;
   overflow-x: auto;
   overflow-y: hidden;
   margin: 1rem -1rem;

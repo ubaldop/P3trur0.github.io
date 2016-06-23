@@ -35,7 +35,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.65;
 }
@@ -46,8 +46,8 @@ html {
 }
 
 body {
-  color: #fff;
-  background-color: #082736; /*#416072*/
+  color: #95a5a6;
+  background-color: #302E44; /*#416072*/
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #F1747C;
+  color: #FDAA40;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -130,12 +130,12 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #F1747C;
+  color: #FDAA40;
   text-transform: uppercase;
 }
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #F1747C;
+  border-bottom: 1px dotted #FDAA40;
 }
 
 figure {
@@ -150,12 +150,14 @@ pre {
 code {
   padding: .25em .5em;
   font-size: .85rem;
-  background-color: #333438;
+  background-color: #FC5A4A;
+  color: #fff;
 }
 
 pre {
   display: block;
   margin-top: 0;
+  font-size: 18px;
   margin-bottom: 1rem;
   padding: 1rem;
   line-height: 1.4;
@@ -166,7 +168,7 @@ pre {
   word-wrap: break-word;*/
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  background-color: #333438;
+  background-color: #EFEFEF;
 
   /* Make code same width as regular text, and scroll the full page width on mobile */
   margin-left: -1rem;
@@ -194,11 +196,13 @@ pre code {
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #FFF478;
-  border-left: .25rem solid #FFF478;
-  background-color: rgba(241,116,124, 0.4);
+  background-color: #654e42;
+  border-left: 0.25rem solid #ce4844;
+  color: #fff;
+  margin: 0.8rem 0;
+  font-style: italic;
 }
+
 blockquote p:last-child {
   margin-bottom: 0;
 }
@@ -222,6 +226,7 @@ table {
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
+  color: #fff;
 }
 td,
 th {
@@ -230,7 +235,7 @@ th {
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #333438;
+  background-color: #403E53;
 }
 
 /*
@@ -253,8 +258,9 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  background-color: #FFF478;
-  color: #3d3d3d;
+  background-color: #ce4844;
+  color: #efefef;
+  font-style: italic;
   margin-bottom: 1rem;
   margin-left: -1rem;
   margin-right: -1rem;
@@ -323,7 +329,9 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #F1747C;
+  color: #FC5A4A;
+  font-family: "Josefin Sans","Lobster", "PT Serif", Georgia, serif;
+  text-shadow: 1px 1px #95a5a6;
 }
 .page-title,
 .post-title {
@@ -335,7 +343,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #F1747C;
+  color: #fff;
 }
 
 /* Related posts */
@@ -348,6 +356,11 @@ tbody tr:nth-child(odd) th {
   padding-left: 0;
   list-style: none;
 }
+
+.lighter-color {
+  color: #fff;
+}
+
 .related-posts h3 {
   margin-top: 0;
 }

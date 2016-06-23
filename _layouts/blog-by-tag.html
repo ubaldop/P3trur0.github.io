@@ -20,7 +20,7 @@ layout: default
     {% if currentdate != date %}
       {% unless forloop.first %}</ul><hr/>{% endunless %}
       <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-      <ul class="related-posts">
+      <ul class="related-posts lighter-color">
       {% assign date = currentdate %}
     {% endif %}
     <li>

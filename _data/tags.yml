@@ -14,13 +14,13 @@
 software:
   name: Software
   image: /public/img/4.jpg
-  color: '#fff478'
+  color: '#FC5A4A'
 #  description: >
 #    Software posts are about my struggles to become a better developer.
 
 functional_programming:
   name: Functional Programming
   image: /public/img/0.jpg
-  color: '#fff478'
+  color: '#FC5A4A'
 #  description: >
 #    Flattening maps all way down!
