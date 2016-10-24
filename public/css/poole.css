@@ -102,6 +102,7 @@ p {
 
 strong {
   color: #fff;
+  background-color: rgba(252, 90, 74, 0.2);
 }
 
 
@@ -148,10 +149,11 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
-  font-size: .85rem;
-  background-color: #FC5A4A;
+  /*background-color: #FC5A4A;*/
   color: #fff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 0.25em 0.35em;
 }
 
 pre {
