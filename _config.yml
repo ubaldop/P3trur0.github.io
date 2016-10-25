@@ -34,6 +34,10 @@ author:
   # This photo will be used in the about section
   photo:          /public/img/avatar.png
 
+  #SEO
+  gems:
+    - jekyll-seo-tag
+  
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
     Hi, I am a small village in the southern part of Italy, where nothing special happens. Usually.
