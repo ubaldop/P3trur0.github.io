@@ -47,3 +47,4 @@ kramdown:
 
 gems:
   - jekyll-seo-tag
+  - jemoji
