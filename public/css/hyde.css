@@ -28,6 +28,18 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'AdamantBG';
+  src: url('../fonts/AdamantBG.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AdamantBG.otf') format('opentype'),
+  url('../fonts/AdamantBG.woff') format('woff'),
+  url('../fonts/AdamantBG.ttf') format('truetype'),
+  url('../fonts/AdamantBG.svg#AdamantBG') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /*
  * Global resets
  *
@@ -35,7 +47,8 @@
  */
 
 html {
-  font-family: "Josefin Sans", "PT Serif", Georgia, serif;
+  font-family: 'AdamantBG', "PT Serif", Georgia, serif;
+  font-size: 12pt;
 }
 @media (min-width: 48em) {
   html {
@@ -44,12 +57,12 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Josefin Sans", "PT Serif", Georgia, serif;
+  font-family: 'AdamantBG', "PT Serif", Georgia, serif;
 }
 
 a {
@@ -253,7 +266,7 @@ a:focus::before {
   padding-left: 0;
 }
 .sidebar-nav-item {
-  font-family: "Josefin Sans", Georgia, serif;
+  font-family: 'AdamantBG', "PT Serif", Georgia, serif;
   font-weight: bold;
   display: block;
   line-height: 1.75;
@@ -311,7 +324,7 @@ a:focus::before {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 58rem;
     margin-left: 20rem;
     margin-right: 2rem;
     border-left: none;
@@ -320,7 +333,7 @@ a:focus::before {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 28%;
     margin-right: 4rem;
   }
 }

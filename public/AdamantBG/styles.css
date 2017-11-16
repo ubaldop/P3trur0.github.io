@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'AdamantBG';
+  src: url('AdamantBG.eot?#iefix') format('embedded-opentype'),  url('AdamantBG.otf')  format('opentype'),
+	     url('AdamantBG.woff') format('woff'), url('AdamantBG.ttf')  format('truetype'), url('AdamantBG.svg#AdamantBG') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
