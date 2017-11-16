@@ -261,13 +261,18 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  background-color: #ce4844;
-  color: #efefef;
-  font-style: italic;
+  background-color: #FDAA40;
+  color: #302E44;
   margin-bottom: 1rem;
   margin-left: -1rem;
   margin-right: -1rem;
-  padding: 1rem;
+  padding: 1.5rem;
+}
+
+.message strong {
+  background-color: #FDAA40;
+  color: red;
+  font-size: 16px;
 }
 
 
