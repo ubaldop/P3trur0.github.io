@@ -34,7 +34,7 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
-      - oracle-java8-set-default
+      - oracle-java9-set-default
 # the following step should start the virtual X frame buffer: Xvfb process
 before_script:
   - "sh -e /etc/init.d/xvfb start"
